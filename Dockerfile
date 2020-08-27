@@ -1,3 +1,9 @@
-FROM ubuntu:latest
+FROM php:7.2-cli
 
-RUN /bin/bash -c 'apt-get update'
+RUN mkdir /myproject
+
+COPY index.php /myproject
+
+WORKDIR /myproject
+
+CMD php index.php
