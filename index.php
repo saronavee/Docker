@@ -1,3 +1,3 @@
 <?
 
-echo "Hello everyone";
+echo "Hello! Welcome to DevOps";
