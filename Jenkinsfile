@@ -3,11 +3,11 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        sh 'echo "blue pipeline test run"'
+        echo "blue pipeline test run"
       }
     }
 
-    stage('') {
+    stage('deploy') {
       steps {
         echo 'Hello world'
       }
